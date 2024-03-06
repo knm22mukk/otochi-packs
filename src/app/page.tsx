@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>ゼロから立ち上げるおとちパックス</div>;
+  return <div className='font-bold text-red-500'>ゼロから立ち上げるおとちパックス</div>;
 }
