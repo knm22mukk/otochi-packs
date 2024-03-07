@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import MobileNav from '@/components/MobileNav';
+
 import { navLinks } from '@/const/navLinks';
 
 export default function Header() {
@@ -27,8 +29,8 @@ export default function Header() {
             Sign up
           </button>
         </div>
-        <div className='flex items-center lg:hidden'>
-          <button className='self-center rounded px-8 py-3'>menu</button>
+        <div className='flex items-center gap-4 lg:hidden'>
+          <MobileNav />
           <button className='self-center rounded bg-orange-600 px-8 py-3 font-semibold text-gray-50'>
             Sign up
           </button>
