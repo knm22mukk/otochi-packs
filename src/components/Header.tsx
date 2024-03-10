@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import MobileNav from '@/components/MobileNav';
+import ThemeToggleButton from '@/components/ThemeToggleButton';
 
 import { navLinks } from '@/const/navLinks';
 
@@ -25,15 +26,11 @@ export default function Header() {
           ))}
         </ul>
         <div className='hidden lg:block'>
-          <button className='self-center rounded bg-orange-600 px-8 py-3 font-semibold text-gray-50'>
-            Sign up
-          </button>
+          <ThemeToggleButton />
         </div>
         <div className='flex items-center gap-4 lg:hidden'>
           <MobileNav />
-          <button className='self-center rounded bg-orange-600 px-8 py-3 font-semibold text-gray-50'>
-            Sign up
-          </button>
+          <ThemeToggleButton />
         </div>
       </div>
     </header>
