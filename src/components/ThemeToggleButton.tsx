@@ -21,7 +21,7 @@ export default function ThemeToggleButton() {
       type='button'
       aria-label='Theme Toggle Button'
       onClick={handleClick}
-      className='h-10 w-10 rounded p-2 text-xl font-bold text-orange-500'
+      className='inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-xl text-orange-500 hover:bg-orange-100 hover:text-orange-600'
     >
       {mounted && (
         <>{theme === 'light' ? <MdOutlineNightlight /> : <MdOutlineWbSunny />}</>

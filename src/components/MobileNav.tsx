@@ -23,7 +23,7 @@ export default function MobileNav() {
       <button
         type='button'
         aria-label='Toggle Menu'
-        className='h-10 w-10 text-2xl'
+        className='inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-xl text-orange-500 hover:bg-orange-100 hover:text-orange-600'
         onClick={onToggleNav}
       >
         <AiOutlineMenu />
@@ -35,7 +35,7 @@ export default function MobileNav() {
       >
         <div className='flex justify-end'>
           <button
-            className='mr-10 mt-10 h-10 w-10 text-2xl'
+            className='mr-10 mt-10 h-10 w-10 rounded-lg p-2 text-2xl text-orange-500 hover:bg-orange-100 hover:text-orange-600'
             aria-label='Toggle Menu'
             onClick={onToggleNav}
           >

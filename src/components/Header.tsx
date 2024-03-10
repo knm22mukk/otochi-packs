@@ -8,7 +8,7 @@ import { navLinks } from '@/const/navLinks';
 
 export default function Header() {
   return (
-    <header className='bg-white p-4'>
+    <header className='p-4'>
       <div className='container mx-auto flex h-32 items-center justify-between'>
         <Link href='/' aria-label='Home' className='flex items-center p-2'>
           <Image src='/images/logo.jpg' alt='otochi packs' width={150} height={150} />
